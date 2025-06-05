@@ -1,6 +1,4 @@
-import * as React from 'react';
-import { Component } from 'react';
-import { Phone, Clock, MapPin, Mail } from 'lucide-react';
+import { Phone, Clock, MapPin } from 'lucide-react';
 
 
 export default function Booking() {

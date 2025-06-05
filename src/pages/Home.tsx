@@ -1,14 +1,11 @@
-import * as React from 'react';
-import { useState } from 'react';
+
 import Navbar from '../components/navbar';
 import Reviews from '../components/reviews';
 import Booking from '../components/booking';
 import Footer from '../components/footer';
 import banner from '../assets/front page/banner.png';
-import { Phone, Clock, MapPin, Mail } from 'lucide-react';
 
 export default function Home() {
-  const [count, setCount] = useState(0);
 
   return (
     <div className="min-w-screen min-h-screen bg-white overflow-x-hidden">
