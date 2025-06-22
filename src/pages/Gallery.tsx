@@ -2,7 +2,9 @@ import { Helmet } from "react-helmet";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
+const images = import.meta.glob('../assets/gallery/*.{jpg,JPEG,jpeg}', { eager: true });
 
+const imageEntries = Object.entries(images) as [string, { default: string }][];
 export default function Gallery() {
 
     return (
@@ -18,8 +20,24 @@ export default function Gallery() {
                     <p className="text-gray-500 mb-4 text-xl">Courtesy of <a href="#" className="text-blue-500">Our Talented Artists</a></p>
                     {/* Gallery content goes here */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        {/* Example images */}
-                        <img src="src/assets/gallery/2AA57EF9-155D-4509-A894-7839D82DA3E6.JPEG" alt="Nail Art 1" className="w-full h-auto rounded-lg shadow-md" />
+                        {imageEntries.map(([path, mod], index) => (
+                            <img
+                            key={path}
+                            src={mod.default}
+                            alt={`Nail Art ${index + 1}`}
+                            className="w-full h-auto rounded-lg shadow-md"
+                            />
+                        ))}
+                    </div>
+                </div>
+                <Footer />
+            </div>
+        </>
+    )
+}
+/*
+ Gallery images
+                         <img src="src/assets/gallery/2AA57EF9-155D-4509-A894-7839D82DA3E6.JPEG" alt="Nail Art 1" className="w-full h-auto rounded-lg shadow-md" />
                         <img src="src/assets/gallery/IMG_6710.jpg" alt="Nail Art 2" className="w-full h-auto rounded-lg shadow-md" />
                         <img src="src/assets/gallery/4E3B9806-EB52-42B1-AA45-B1CD247FEAB2.JPEG" alt="Nail Art 3" className="w-full h-auto rounded-lg shadow-md" />
 
@@ -38,10 +56,4 @@ export default function Gallery() {
                         <img src="src\assets\gallery\IMG_6916.jpg" alt="Nail Art 3" className="w-full h-auto rounded-lg shadow-md" />
                         <img src="src\assets\gallery\IMG_6922.jpg" alt="Nail Art 3" className="w-full h-auto rounded-lg shadow-md" />
                         <img src="src\assets\gallery\img1.JPEG" alt="Nail Art 3" className="w-full h-auto rounded-lg shadow-md" />
-                    </div>
-                </div>
-                <Footer />
-            </div>
-        </>
-    )
-}
+*/
