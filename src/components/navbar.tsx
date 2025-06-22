@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+
+  
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -30,7 +32,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className='hidden md:block'>
-            <a href="#booking">
+            <a href="/#booking">
               <button className="bg-primary text-white px-4 py-2 rounded-md text-lg font-medium hover:bg-phover transition-colors">
                 Book Appointment
               </button>
@@ -72,7 +74,7 @@ export default function Navbar() {
 
 
           <div className="pt-2">
-            <a href="#booking">
+            <a href="/#booking">
               <button className="w-full bg-primary text-white px-4 py-2 rounded-md text-base font-medium hover:bg-phover transition-colors">
                 Book Now
               </button>

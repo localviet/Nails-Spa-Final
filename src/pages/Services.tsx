@@ -1,11 +1,15 @@
-
+import { Helmet } from "react-helmet";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
 
 export default function Services() {
   return (
-    <div className='min-w-screen min-h-screen bg-white overflow-x-hidden'>
+    <>
+      <Helmet>
+        <title>Service</title>
+      </Helmet>
+      <div className='min-w-screen min-h-screen bg-white overflow-x-hidden'>
         <Navbar />
         <div className='w-full pb-10 bg-gray-100 min-h-[calc(100vh-4rem)] flex justify-center'>
           <div className=' md:w-1/3 w-9/10 flex flex-col text-black bg-white rounded-lg py-6 px-10 md:px-10 shadow-md mt-10 text-xl'>
@@ -307,6 +311,7 @@ export default function Services() {
           </div>
         </div>
         <Footer />
-    </div>
+      </div>
+    </>
   );
 }

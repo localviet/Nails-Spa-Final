@@ -52,6 +52,14 @@ export default function Booking() {
                     </div>
                     <div className='flex flex-col space-y-2 mt-2'> 
                         <p className='mt-2'>853 E Little Creek Rd., Norfolk, Virginia, 23503</p>
+                        <a
+                        className='text-primary hover:text-phover transition-colors text-left py-2'
+                        href="https://maps.app.goo.gl/KRHJgBjusMbHFJ3o8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        Open in Maps
+                        </a>
                     </div>
                     </div>
                 </div>
