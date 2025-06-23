@@ -17,7 +17,7 @@ export default function Home() {
       <div className="min-w-screen min-h-screen bg-white overflow-x-hidden">
         <Navbar />
         <div id='discount' className='flex justify-center items-center h-10 bg-primary'>
-            <p className='bg-red-500 text-xl'><b>$5 OFF</b> on <b>TUESDAYS</b> ( orders $20+ )</p>
+            <p className='text-xl'><b>$5 OFF</b> on <b>TUESDAYS</b> ( orders $20+ )</p>
         </div>
         <div className='relative w-full h-160'>
           <img src={banner} alt="shop" className='w-full h-full object-cover filter brightness-50' />
