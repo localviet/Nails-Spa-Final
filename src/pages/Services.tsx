@@ -37,10 +37,10 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $25+
+                  $35+
                 </div>
                 <div className='md:w-12 w-16'>
-                  $15+
+                  $25+
                 </div>
               </div>
             </div>
@@ -52,10 +52,10 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $45+
+                  $50+
                 </div>
                 <div className='md:w-12 w-16'>
-                  $35+
+                  $45+
                 </div>
               </div>
             </div>
@@ -66,20 +66,20 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $35+
+                  $60+
                 </div>
                 <div className='md:w-12 w-16'>
-                  $25+
+                  $40+
                 </div>
               </div>
             </div>
             <div className='flex justify-between mb-4'>
               <div>
-                Coating
+                Nail Overlay
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $25+
+                  $35+
                 </div>
                 <div className='md:w-12 w-16'>
                   
@@ -92,10 +92,10 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $35+
+                  $40+
                 </div>
                 <div className='md:w-12 w-16'>
-                  $255+
+                  $30+
                 </div>
               </div>
             </div>
@@ -105,10 +105,10 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $25
+                  $35
                 </div>
                 <div className='md:w-24 w-32'>
-                  GEL &rarr; $40
+                  GEL &rarr; $45
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $40
+                  $55
                 </div>
                 <div className='md:w-12 w-16'>
                   
@@ -127,13 +127,15 @@ export default function Services() {
             </div>
             <div className='flex justify-between mb-4'>
               <div>
-                Spa Pedicure
+                Volcano Spa
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $35
+                  $55
                 </div>
-
+                <div className='md:w-24 w-32'>
+                  Gel &rarr; $65
+                </div>
               </div>
             </div>
             <div className='flex justify-between mb-4'>
@@ -142,10 +144,10 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $15
+                  $25
                 </div>
                 <div className='md:w-24 w-32'>
-                  Gel &rarr; $30
+                  Gel &rarr; $35
                 </div>
               </div>
             </div>
@@ -182,7 +184,7 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $15+
+                  $20+
                 </div>
                 <div className='md:w-12 w-16'>
                  
@@ -208,10 +210,10 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $10
+                  $15
                 </div>
                 <div className='md:w-30 w-32'>
-                  French &rarr; $10+
+                  French &rarr; $15+
                 </div>
               </div>
             </div>
@@ -234,7 +236,7 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $8
+                  $10
                 </div>
                 <div className='md:w-12 w-16'>
                 </div>
@@ -246,7 +248,7 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $25
+                  $35
                 </div>
                 <div className='md:w-12 w-16'>
                 </div>
@@ -261,7 +263,7 @@ export default function Services() {
                   $40+
                 </div>
                 <div className='md:w-12 w-16'>
-                  $30
+                  $35+
                 </div>
               </div>
             </div>
@@ -271,7 +273,7 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $40+
+                  $50+
                 </div>
                 <div className='md:w-12 w-16'>
                   
@@ -284,7 +286,7 @@ export default function Services() {
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $45+
+                  $50+
                 </div>
                 <div className='md:w-12 w-16'>
 
@@ -293,11 +295,11 @@ export default function Services() {
             </div>
             <div className='flex justify-between mb-4'>
               <div>
-                Volcano Spa
+                Eyebrow Tinting
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
                 <div className='md:w-12 w-16'>
-                  $45+
+                  $25
                 </div>
                 <div className='md:w-12 w-16'>
                   

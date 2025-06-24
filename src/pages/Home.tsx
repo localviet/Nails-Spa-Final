@@ -1,5 +1,3 @@
-
-
 import Navbar from '../components/navbar';
 import Reviews from '../components/reviews';
 import Booking from '../components/booking';
