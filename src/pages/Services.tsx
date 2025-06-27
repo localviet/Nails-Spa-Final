@@ -62,19 +62,6 @@ export default function Services() {
 
             <div className='flex justify-between mb-4'>
               <div>
-                UV Gel Nails
-              </div>    
-              <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
-                <div className='md:w-12 w-16'>
-                  $60+
-                </div>
-                <div className='md:w-12 w-16'>
-                  $40+
-                </div>
-              </div>
-            </div>
-            <div className='flex justify-between mb-4'>
-              <div>
                 Nail Overlay
               </div>    
               <div className='flex space-x-2 md:w-5/12 w-1/2 justify-between'>
