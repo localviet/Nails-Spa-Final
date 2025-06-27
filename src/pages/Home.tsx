@@ -14,9 +14,7 @@ export default function Home() {
       </Helmet>
       <div className="min-w-screen min-h-screen bg-white overflow-x-hidden">
         <Navbar />
-        <div id='discount' className='flex justify-center items-center h-10 bg-primary'>
-            <p className='text-xl'><b>$5 OFF</b> on <b>TUESDAYS</b> ( orders $20+ )</p>
-        </div>
+        
         <div className='relative w-full h-160'>
           <img src={banner} alt="shop" className='w-full h-full object-cover filter brightness-50' />
           <div className='absolute inset-0 flex flex-col items-center justify-center'>
