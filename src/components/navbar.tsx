@@ -16,12 +16,12 @@ export default function Navbar() {
       <div className="max-w-full mx-auto px-4 lg:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex flex-shrink-0">
+          <Link to="/" className="flex flex-shrink-0">
             <Sparkles size={32} color="#ff0b55"/>
             <a href="#" className="text-3xl font-bold text-primary font-logo">
               #1 Nails & Spa
             </a>
-          </div>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
